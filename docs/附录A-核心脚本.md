@@ -239,6 +239,8 @@ def render_readme(projects: list[dict]) -> str:
         "- `scripts/tnotices.py`：更新、渲染、同步",
         "- `config/daily_prompt.md`：每日智能体任务说明",
         "- `docs/搭建与使用指南.md`：从零复现与日常使用",
+        "- `docs/值班手册_一页纸.md`：每日值班 5 分钟检查清单",
+        "- `docs/Tnotices_完整文档_20261020.md`：指南+值班手册+附录合集",
         "",
     ]
     return "\n".join(lines)
